@@ -1,0 +1,16 @@
+title: Engineering AI Intelligence
+description: Human-reviewed monthly intelligence on AI in engineering work, modeling, simulation, and Digital Twins.
+baseurl: /engineering-ai-monthly-intelligence
+url: https://sdliqian2021.github.io
+lang: en
+timezone: America/New_York
+markdown: kramdown
+site_section: engineering_ai
+primary_site_url: https://sdliqian2021.github.io
+tire_intelligence_url: https://sdliqian2021.github.io/tire-and-rubber-weekly-intelligence-report
+engineering_ai_url: https://sdliqian2021.github.io/engineering-ai-monthly-intelligence
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - tools
