@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="light">
-    <meta name="theme-color" content="#f6f8fb">
     <title>{% if page.title and page.title != "Home" %}{{ page.title }} · {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | escape }}">
     <link rel="canonical" href="{{ page.url | absolute_url }}">
@@ -34,7 +33,7 @@
     </main>
 
     <footer class="site-footer">
-      <div class="page-width footer-inner">
+      <div class="page-width">
         <p class="site-scope-note"><strong>Scope note:</strong> This project observes public signals, which overrepresent publication-active organizations. Absence of a public signal does not prove inactivity.</p>
         <p>© {{ site.time | date: "%Y" }} Qian Li · Technical thoughts and public-source intelligence.</p>
       </div>
